@@ -1,22 +1,21 @@
-# Kutuphane Yonetim Sistemi
+# Library Management System
 
-Java ile yazilmis basit bir konsol tabanli kutuphane yonetim sistemi.
+A simple console-based library management system written in Java.
 
-Bu proje; kitap, yazar, kategori, kullanici ve kutuphane siniflariyla nesne yonelimli programlama mantigini gostermek icin hazirlanmistir.
+This project was developed to demonstrate object-oriented programming concepts using book, author, category, user, and library classes.
 
-## Ozellikler
+## Features
 
-- Kitap ekleme, guncelleme ve silme
-- Kitaplari listeleme
-- Kategori ekleme
-- Kategoriye gore kitap listeleme
-- Kullanici ekleme
-- Kitap odunc alma ve iade etme
-- Ornek kitap verileriyle baslama
+- Adding, updating, and deleting books
+- Listing books
+- Adding categories
+- Listing books by category
+- Adding users
+- Borrowing and returning books
+- Initialisation with sample book data
 
-## Proje Yapisi
+## Project Structure
 
-```text
 .
 ├── docs/
 │   ├── challenge1.png
@@ -34,38 +33,33 @@ Bu proje; kitap, yazar, kategori, kullanici ve kutuphane siniflariyla nesne yone
 │       └── User.java
 ├── .gitignore
 └── README.md
-```
 
-## UML Diyagramlari
+## UML Diagrams
 
-Istenen sistem:
+Required system design:
 
 ![Challenge UML](docs/challenge1.png)
 
-Projedeki sinif tasarimi:
+Project class design:
 
 ![Class Diagram](docs/class-diagram.png)
 
-## Calistirma
+## How to Run
 
-Projeyi derlemek icin:
+To compile the project:
 
-```bash
-javac -encoding UTF-8 -d out src/notes/*.java
-```
+    javac -encoding UTF-8 -d out src/notes/*.java
 
-Programi calistirmak icin:
+To run the programme:
 
-```bash
-java -cp out notes.Main
-```
+    java -cp out notes.Main
 
-## Kullanilan Konular
+## Concepts Used
 
-- Class ve object kullanimi
+- Classes and objects
 - Inheritance
-- Abstract class
+- Abstract classes
 - Encapsulation
-- Collection yapilari
-- Map, List ve Set kullanimi
-- Konsol uzerinden kullanici girisi
+- Collections
+- Map, List, and Set
+- Console-based user input
